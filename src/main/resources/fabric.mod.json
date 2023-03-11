@@ -1,0 +1,53 @@
+{
+	"schemaVersion": 1,
+	"id": "redesign",
+	"version": "${version}",
+	"name": "Redesign",
+	"description": "Redesign Mod",
+	"authors": [
+		"Rhseung"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Rhseungs-Mod/Redesign"
+	},
+	"license": "MIT License",
+	"icon": "assets/redesign/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.rhseung.redesign.RedesignMod",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.rhseung.redesign.RedesignClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.rhseung.redesign.RedesignData",
+				"adapter": "kotlin"
+			}
+		],
+		"preLaunch": [
+			"com.llamalad7.mixinextras.MixinExtrasBootstrap::init"
+		]
+	},
+	"mixins": [
+		"redesign.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "1.19.3",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.8.10"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

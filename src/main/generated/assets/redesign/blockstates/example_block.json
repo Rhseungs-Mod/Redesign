@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "redesign:block/example_block"
+    }
+  }
+}

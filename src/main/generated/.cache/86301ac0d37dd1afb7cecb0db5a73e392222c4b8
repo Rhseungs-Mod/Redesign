@@ -1,0 +1,5 @@
+// 1.19.3	2023-02-27T02:24:46.0742934	Redesign/Model Definitions
+337646a09dc525a84c094087ace6a18a0ce9e2ab assets\redesign\models\block\example_block.json
+9314c70b990c7a33a1642d2826e8294fd39634e2 assets\redesign\blockstates\example_block.json
+8ae7c3623169da8a0f583e3c3908b0b816cdb330 assets\redesign\models\item\example_block.json
+3897c97ef63f013bc6044cb1b33396bfc07198d7 assets\redesign\models\item\example_item.json
